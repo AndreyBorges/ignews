@@ -4,6 +4,7 @@ import { SubscriberBtn } from 'components'
 import styles from './home.module.scss'
 import { stripe } from 'services'
 import { FC } from 'react'
+import Image from 'next/image'
 
 interface HomeProps {
   product: {
@@ -31,7 +32,7 @@ const Home: FC<HomeProps> = ({ product }) => {
           </p>
           <SubscriberBtn priceId={product.priceId} />
         </section>
-        <img src='/images/mulher.svg' />
+        <Image src='/images/mulher.svg' />
       </main>
     </>
   )
