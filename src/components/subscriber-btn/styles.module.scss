@@ -1,0 +1,19 @@
+.subscriberBtn{
+  height: 4rem;
+  width: 260px;
+  border : 0;
+  background: var(--yellow-500);
+  color: var(--gray-900);
+  font: bold 1.25rem;
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: filter .1s ease-in-out;
+
+  &:hover{
+    filter: brightness(0.8 );
+  }
+}
