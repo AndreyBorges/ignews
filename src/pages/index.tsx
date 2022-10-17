@@ -32,7 +32,7 @@ const Home: FC<HomeProps> = ({ product }) => {
           </p>
           <SubscriberBtn priceId={product.priceId} />
         </section>
-        <Image src='/images/mulher.svg' />
+        <Image src='/images/mulher.svg' width={355} height={600} />
       </main>
     </>
   )
